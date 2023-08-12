@@ -15,12 +15,13 @@
     "react-vertical-timeline-component": "^3.5.2",
     "web-vitals": "^2.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build --legacy-peer-deps",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
